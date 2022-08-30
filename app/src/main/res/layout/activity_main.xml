@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Math Puzzles"
+            android:textSize="30dp"
+            android:textStyle="bold|italic"
+            android:textColor="#12289E"
+            android:layout_margin="30dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/blackboard_main_menu"
+            android:layout_marginTop="10dp"
+            android:layout_height="550dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="CONTINUE"
+                android:id="@+id/t1"
+                android:layout_marginTop="180dp"
+                android:gravity="center"
+                android:textStyle="bold|italic"
+                android:textColor="#fff"
+                android:textSize="30dp"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="PUZZLES"
+                android:id="@+id/t2"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textStyle="bold|italic"
+                android:textColor="#fff"
+                android:textSize="30dp"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="BUY PRO"
+                android:id="@+id/t3"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textStyle="bold|italic"
+                android:textColor="#fff"
+                android:textSize="30dp"
+                android:layout_height="wrap_content">
+            </TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
